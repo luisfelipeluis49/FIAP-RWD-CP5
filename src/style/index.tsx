@@ -180,3 +180,39 @@ export const FormSubmit = styled.button`
     font-size: 1rem;
     cursor: pointer;
 `
+
+export const DetailSection = styled.section`
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    margin-inline: auto;
+    padding-inline: 24px;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    gap: 24px;
+    background-color: #aaFFaa88
+`
+
+export const DetailTitle = styled.h2`
+    margin: 0 0 18px 0;
+    font-family: system-ui;
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    color: ${props => props.theme.corTitulo};
+    transition: color 0.3s ease-out;
+`
+
+export const DetailText = styled.p`
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-align: left;
+    font-family: Helvetica;
+    color: ${props => props.theme.corTexto};
+`
+
+export const DetailImage = styled.img`
+    object-fit: cover;
+    object-position: center;
+`
