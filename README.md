@@ -33,8 +33,7 @@ Agora rode o script para subir em teste local
 
     npm run dev
 
-End with an example of getting some data out of the system or using it
-for a little demo
+Por fim rodando o projeto localmente agora pode ver ele em qualquer navegador a partir desse link: [localhost:5173](http://localhost:5173/)
 
 ## Autor
 
