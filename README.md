@@ -1,8 +1,43 @@
-# React + Vite
+# Mudanças Climáticas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de Responsive Web Design da FIAP, realizado em React com a utilização do Vite. O projeto visa informar e conscientizar as pessoas sobre o tema com dados tirados direto da fonte oficial da ONU.
 
-Currently, two official plugins are available:
+## Preparações
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Estas instruções permitirão que você tenha uma cópia do projeto funcionando em sua máquina local para fins de desenvolvimento e testes. Consulte a seção de deployment para ver sobre como deployar o projeto em um live system.
+
+### Pré requisitos
+
+Ferramentas necessárias para buildar, testar e dar push: 
+- [NodeJS](https:nodejs.org/)
+- [NPM](https://www.npmjs.com)
+- [GIT](https://git-scm.com)
+
+### Instalação e Teste
+
+Guia rápido e fácil para clonar e rodar o projeto na sua máquina local
+
+Clone esse repositório na sua máquina
+
+    git clone https://github.com/luisfelipeluis49/FIAP-RWD-CP5.git
+
+Vá para o diretório onde você guardou o projeto
+
+    cd FIAP-RWD-CP5
+
+Instale as dependencias da pasta node_modueles
+
+    npm install
+
+Agora rode o script para subir em teste local
+
+    npm run dev
+
+End with an example of getting some data out of the system or using it
+for a little demo
+
+## Autor
+
+  - **Luís Silva** - *Desenvolveu o projeto* -
+    [luisfelipeluis49](https://github.com/luisfelipeluis49)
+
