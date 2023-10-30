@@ -216,3 +216,42 @@ export const DetailImage = styled.img`
     object-fit: cover;
     object-position: center;
 `
+
+export const AboutRow = styled.div`
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+flex-direction: column;
+max-width: 95%;
+margin-inline: auto;
+padding-inline: 24px;
+margin-top: 5px;
+margin-bottom: 15px;
+padding-top: 25px;
+padding-bottom: 20px;
+border-radius: 10px;
+gap: 24px;
+background-color: #aaFFaa88;
+`
+
+export const AboutSection = styled.section`
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+`
+
+export const AboutButton = styled.a`
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    margin: 1em 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.5em;
+`
+
+export const AboutProfile = styled.img`
+    width: 100% auto;
+    margin-left: 100px;
+    margin-right: 100px;
+`
