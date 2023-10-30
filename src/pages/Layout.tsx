@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom';
 import { Button, Nav, Li, NavRow } from "../style";
+import { Toggle } from '../components/Toggle';
 
 // eslint-disable-next-line react/prop-types
 export default function Layout({theme}) {
@@ -23,7 +24,8 @@ export default function Layout({theme}) {
               <Link to="/details" style={{color: 'white'}}>Detalhes</Link>
           </Li>
         </Nav>
-        <Button onClick={() => theme()}>TEMA</Button>
+        <Button>TEMA</Button>
+        <Toggle label="Toggle me" toggled={true} onClik={() => theme()} />
       </NavRow>
       <Outlet />
     </>

@@ -22,17 +22,18 @@ export const Container = styled.div`
 `
 
 // Criando um botão
-export const Button = styled.button`
+export const Button = styled.div`
     padding: 10px;
     border: none;
-    background-color: #4caf50;
-    color: white;
-    margin: 10px;
+    background-color: #4caf5000;
+    color: #4caf50;
+    margin: 8px;
+    cursor: default;
 `
 
 // Criando um título
 export const TitlePage = styled.h1`
-    color: blue;
+    color: #a9f;
     font-size: 40px;
 `
 
@@ -254,4 +255,48 @@ export const AboutProfile = styled.img`
     width: 100% auto;
     margin-left: 100px;
     margin-right: 100px;
+`
+
+export const ToggleLabel = styled.label`
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+`
+
+export const ToggleSpan = styled.span`
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2c3e50;
+    transition: 0.3s;
+    border-radius: 30px;
+    &:before {
+        position: absolute;
+        content: "";
+        height: 25px;
+        width: 25px;
+        left: 3px;
+        bottom: 2.6px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+`
+
+export const ToggleInput = styled.input`
+    opacity: 0;
+    width: 0;
+    height: 0;
+    &:checked + ${ToggleSpan} {
+        background-color: #00c853;
+    };
+      
+    &:checked + ${ToggleSpan}:before {
+        transform: translateX(21px);
+    };
 `
