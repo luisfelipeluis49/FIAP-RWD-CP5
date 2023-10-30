@@ -116,9 +116,67 @@ export const CardText = styled.div`
 `
 
 export const FormSection = styled.section`
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     margin-inline: auto;
     padding-inline: 24px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
+`
+
+/*export const FormSection = styled.section`
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+`*/
+
+export const FormContainer = styled.div`
+    background-color: #a9f;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    line-height: 1.5;
+    box-shadow: 0 20px 30px;
+`
+
+export const FormImage = styled.img`
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+`
+
+export const FormContent = styled.div`
+    padding: 10px 40px 10px 10px;
+`
+
+export const FormTitle = styled.h2`
+    font-size: 1.2rem;
+    color: ${props => props.theme.corTitulo};
+`
+
+export const FormInput = styled.input`
+    width: 91%;
+    border: none;
+    padding: 14px;
+    border-radius: 3px;
+    border: 2px solid #DADDEC;
+    margin: 5px 0 10px;
+    font-size: 1rem;
+    color: #656880;
+`
+
+export const FormSubmit = styled.button`
+    width: 100%;
+    border: none;
+    padding: 14px;
+    border-radius: 3px;
+    background-image: linear-gradient(to right, #69ffff, #4caf50);
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
 `

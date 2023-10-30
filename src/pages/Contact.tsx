@@ -1,13 +1,17 @@
 import React from 'react';
-import { TitlePage } from '../style'
+import { FormSection, TitlePage } from '../style'
+import { Form } from 'react-router-dom';
+import ContactForm from '../components/ContactForm';
 
 export default function Contact() {
     return(
         <>
             <TitlePage>ENTRE EM CONTATO</TitlePage>
 
-            <p>Lorem ipsum, dolor sit</p>
-            <p>Lore</p>
+            <FormSection>
+                <ContactForm />
+            </FormSection>
+            
         </>
     )
 }
